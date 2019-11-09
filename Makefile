@@ -16,7 +16,7 @@ linter:
 	shuttle run linter
 
 clean: # @HELP remove all the build artifacts
-	rm -rf ./build/_output ./vendor
+	rm -rf ./build/_output ./vendor .shuttle
 
 help:
 	@grep -E '^.*: *# *@HELP' $(MAKEFILE_LIST) \
